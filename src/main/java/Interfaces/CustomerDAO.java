@@ -1,5 +1,5 @@
 package Interfaces;
-import Entity.Customer;
+import Abstractclasses.Customer;
 
 import java.util.List;
 

@@ -10,6 +10,9 @@ public class Car {
         this.make = make;
     }
 
+    public Car(String s, int i, Person person2) {
+    }
+
     public int getYearModel() {
         return yearModel;
     }

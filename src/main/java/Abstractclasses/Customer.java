@@ -1,6 +1,6 @@
-package Entity;
+package Abstractclasses;
 
-public class Customer {
+public abstract class Customer {
     private int id;
     private String name;
 
