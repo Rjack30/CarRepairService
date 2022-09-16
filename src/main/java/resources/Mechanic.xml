@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mechanics>
+    <office>Burbank</office>
+    <name>
+        <first-name>Will</first-name>
+        <last-name>Smith</last-name>
+    </name>
+
+</Mechanics>
+<office>Glendale</office>
+    <name>
+<first-name>Rod</first-name>
+<last-name>Wave</last-name>
+</name>
+
+        </Mechanics>
+<office>Pasadena</office>
+<name>\
+<first-name>Robert</first-name>
+<last-name>Jackson</last-name>
+</name>
+</Mechanics>
