@@ -1,4 +1,4 @@
-package Interfaces;
+package DAO;
 import Abstractclasses.Customer;
 
 import java.util.List;

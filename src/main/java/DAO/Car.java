@@ -1,4 +1,4 @@
-package Entity;
+package DAO;
 
 public class Car {
     private int yearModel;
@@ -10,7 +10,7 @@ public class Car {
         this.make = make;
     }
 
-    public Car(String s, int i, Person person2) {
+    public Car(String s, int i, Mechanic person2) {
     }
 
     public int getYearModel() {

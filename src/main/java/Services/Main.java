@@ -1,12 +1,10 @@
 package Services;
-import java.util.*;
-import  java.util.Arrays;
 import java.util.Scanner;
 
-import Entity.Car;
-import Entity.City;
-import Entity.Person;
-import Entity.SportEvent;
+import DAO.Car;
+import DAO.City;
+import DAO.Mechanic;
+import DAO.SportEvent;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import java.time.LocalDateTime;
@@ -18,8 +16,8 @@ public class Main {
     private static final Logger logger = LogManager.getLogger(City.class);
     public static void main(String[] args) {
 
-        var person1 = new Person("Jonh", "Gold");
-        var person2 = new Person("James", "Miller");
+        var person1 = new Mechanic("Jonh", "Gold");
+        var person2 = new Mechanic("James", "Miller");
         // create 2 cars
         var car1 = new Car(" BMW M3", 2013, person1);
         var car2 = new Car("Mercedes-Benz E550", 2017, person2);

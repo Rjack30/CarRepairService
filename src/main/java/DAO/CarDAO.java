@@ -1,6 +1,6 @@
-package Interfaces;
+package DAO;
 
-import Entity.Car;
+import DAO.Car;
 
 import java.util.List;
 

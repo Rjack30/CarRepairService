@@ -1,4 +1,4 @@
-package Entity;
+package DAO;
 
 import java.util.HashMap;
 

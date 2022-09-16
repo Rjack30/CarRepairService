@@ -1,6 +1,6 @@
-package Interfaces;
+package DAO;
 
-import Entity.Employee;
+import DAO.Employee;
 
 import java.util.List;
 
