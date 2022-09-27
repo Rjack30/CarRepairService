@@ -1,5 +1,5 @@
 package DAO;
-import Abstractclasses.Customer;
+import model.Customer;
 
 import java.util.List;
 

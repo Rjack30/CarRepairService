@@ -1,6 +1,6 @@
-package Abstractclasses;
+package model;
 
-public abstract class Customer {
+public  class Customer {
     private int id;
     private String name;
 

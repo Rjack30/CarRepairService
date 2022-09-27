@@ -1,4 +1,4 @@
-package Abstractclasses;
+package model;
 
 public class Service {
     private final int number = 0;

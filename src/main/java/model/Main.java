@@ -2,7 +2,6 @@ package model;
 import java.util.Scanner;
 
 import DAO.Car;
-import DAO.City;
 import DAO.Mechanic;
 import DAO.SportEvent;
 import org.apache.log4j.Logger;
@@ -47,5 +46,30 @@ public class Main {
         }
         System.out.println("Invalid Entry");
     }
+    public static void main(String[] args) {
+
+        int yearModel = 0;
+        String make = null;
+
+        Scanner keyboard = new Scanner(System.in);
+
+        Car car = new Car(yearModel, make);
+
+        System.out.println("What is the year of the car?");
+        yearModel = keyboard.nextInt();
+
+        System.out.println("What is the make of the car?");
+        keyboard.nextLine(); // fixes bug - receives the Enter key without skipping make = keyboard.nextLine()
+        make = keyboard.nextLine();
+
+            System.out.println("Your " + yearModel + " " + make +
+                    " is traveling at " );
+    System.out.println("What is the year of your car? ");
+    yearModel = keyboard.nextInt();
+
+    System.out.println("What is the make of your car? ");
+    make = keyboard.next();
+
+
 }
 
