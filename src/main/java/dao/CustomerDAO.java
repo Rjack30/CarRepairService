@@ -1,4 +1,4 @@
-package DAO;
+package dao;
 import model.Customer;
 
 import java.util.List;

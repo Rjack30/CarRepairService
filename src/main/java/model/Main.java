@@ -1,9 +1,9 @@
 package model;
 import java.util.Scanner;
 
-import DAO.Car;
-import DAO.Mechanic;
-import DAO.SportEvent;
+import dao.Car;
+import dao.Mechanic;
+import dao.SportEvent;
 import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 import java.time.LocalDateTime;
@@ -53,7 +53,7 @@ public class Main {
 
         Scanner keyboard = new Scanner(System.in);
 
-        Car car = new Car(yearModel, make);
+        Car car = new Car();
 
         System.out.println("What is the year of the car?");
         yearModel = keyboard.nextInt();

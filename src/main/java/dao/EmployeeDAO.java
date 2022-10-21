@@ -1,6 +1,4 @@
-package DAO;
-
-import DAO.Employee;
+package dao;
 
 import java.util.List;
 

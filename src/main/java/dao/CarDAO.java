@@ -1,6 +1,4 @@
-package DAO;
-
-import DAO.Car;
+package dao;
 
 import java.util.List;
 
