@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class PaymentsJSONFile {
-    public static void main(String{} args){
+    public static void main(String args){
         JSONObject obj =  new JSONObject();
         obj.put("Payment", "Type");
 
