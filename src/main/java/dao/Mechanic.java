@@ -34,7 +34,7 @@ public class Mechanic {
 
             );
             st.executeUpdate("INSERT INTO Mechanic " +
-                    "VALUES (1002, 'Will', 'Wright', 'Motor Doctor', 'Engine', 'Burbank', '300' )");
+                    "VALUES (1002, 'Will', 'Wright', 'Motor Doctor', 'Oil Change', 'Burbank', '300' )");
             st.executeUpdate("INSERT INTO Mechanic " +
                     "VALUES (1003, 'Robert', 'Earl', 'Brake Service', 'Brakes', 'Burbank', '500' )");
             st.executeUpdate("INSERT INTO Mechanic " +

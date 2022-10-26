@@ -5,7 +5,7 @@ public class Service {
     String name;
     double servicePrice;
 
-    public Service(String name, int servicePrice) {
+    public Service(String name) {
         System.out.println("The  Price of Service: 100 dollars ");
         this.name = name;
         this.servicePrice = number;

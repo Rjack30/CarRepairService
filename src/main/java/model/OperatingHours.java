@@ -1,6 +1,6 @@
 package model;
 
-public class Hours {
+public class OperatingHours {
     private int time;
     private String day;
 
