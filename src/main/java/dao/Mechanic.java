@@ -6,6 +6,10 @@ public class Mechanic {
     public Mechanic (String name) {
         this.name = name;
     }
+
+    public static void getMechanicsFromDataBase() {
+    }
+
     public String getName() {
         return name;
     }

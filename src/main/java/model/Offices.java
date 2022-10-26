@@ -1,4 +1,5 @@
 package model;
+
 import java.sql.*;
 public class Offices {
     private String city;

@@ -30,7 +30,7 @@ public class Main {
                 Offices.setUp();
                 System.out.println("\n");
                 System.out.println("Here are the available Offices that our mechanics can work at");
-                Offices.getCourthousesFromDataBase();
+                Offices.getOfficesFromDataBase();
                 System.out.println("\n");
                 Payments.setUp();
                 System.out.println("\n");
